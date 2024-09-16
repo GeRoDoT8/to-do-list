@@ -1,0 +1,13 @@
+.colorList {
+  margin-top: 30px;
+  padding: 20px;
+}
+.color {
+  width: 33px;
+  height: 33px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.colorActive {
+  border: 3px solid #000;
+}

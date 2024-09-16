@@ -1,0 +1,57 @@
+.todo {
+  padding-top: 100px;
+  max-width: 617px;
+  width: 100%;
+  margin: 0 auto;
+  transition: all 0.2s;
+}
+
+.formResult {
+  margin-top: 30px;
+  position: relative;
+}
+.formResult > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.formResult > div > span {
+  font-weight: 700;
+}
+
+.itemComplete {
+  text-decoration: line-through;
+}
+
+.itemComplete:hover {
+  transform: scale(1);
+}
+
+.input {
+  border-radius: 8px;
+  border: 1px solid #000000;
+  background: #ffffff;
+  padding: 12px;
+  width: 100%;
+}
+.btn {
+  border-radius: 8px;
+  background: #0984e3;
+  padding: 12px 20px;
+  color: #fff;
+  height: 44px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 14px;
+  min-width: 120px;
+}
+.btn:disabled {
+  opacity: 0.2;
+  pointer-events: none;
+}
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}

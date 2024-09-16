@@ -1,0 +1,32 @@
+.todoItemCard {
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.todoItemCard > p {
+  flex-grow: 1;
+}
+.todoItemCard img {
+  cursor: pointer;
+}
+
+.todoItemColor {
+  min-width: 25px;
+  height: 25px;
+  border-radius: 8px;
+  background: red;
+}
+
+.listItem {
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.listItem:hover {
+  transform: scale(1.02);
+}
+.deleteIconDisab {
+  opacity: 0.1;
+  pointer-events: none;
+}
